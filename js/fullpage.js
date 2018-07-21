@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*!
  * fullPage 3.0.0
  * https://github.com/alvarotrigo/fullPage.js
@@ -3863,7 +3862,7 @@ if(window.jQuery){
             });
         };
     })(jQuery, fullpage);
-=======
+
 /*!
  * fullPage 3.0.0
  * https://github.com/alvarotrigo/fullPage.js
@@ -7728,5 +7727,4 @@ if(window.jQuery){
             });
         };
     })(jQuery, fullpage);
->>>>>>> 28b7c87f8db06f94f31b738532ca1aae781a4881
-}
+}}
