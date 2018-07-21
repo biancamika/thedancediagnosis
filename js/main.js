@@ -16,8 +16,8 @@
             $('#question1').remove();
           }
       
-          $('#home').after('<div class="section" id="question1"></div>');
-          $('#question1').load('question.html');
+          $('#home').after('<div class="section"><div id="instructions" class="slide"></div><div id="question1" class="slide"></div><div id="question2" class="slide"></div><div id="question3" class="slide"></div><div id="question4" class="slide"></div></div>');
+          $('#question1').load('question1.html');
       
           $.fn.fullpage.reBuild();
       
