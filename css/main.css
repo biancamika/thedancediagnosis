@@ -161,7 +161,7 @@ label {
     font-family: 'Montserrat', sans-serif;
 }
 
-#question1 {
+#question1, #instructions {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,7 +248,7 @@ label {
  * Hide visually and from screen readers
  */
 
- 
+
 .hidden {
     display: none !important;
 }
