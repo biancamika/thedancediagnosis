@@ -9,6 +9,7 @@
             menu: '#menu',
             anchors:['page1','page2', 'page3'],
             //scrolling
+            scrollHorizontally: true,
             scrollOverflow: true,
           });
         };
@@ -23,9 +24,8 @@
       
           $('#home').after('<div class="section"><div id="instructions" class="slide"></div><div id="question1" class="slide">hello</div></div>');
           $('#instructions').load('instructions.html');
-          /*
           $('#question1').load('question1.html');
-          */
+          
       
           $.fn.fullpage.reBuild();
       
