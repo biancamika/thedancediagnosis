@@ -17,6 +17,7 @@
           }
       
           $('#home').after('<div class="section"><div id="instructions" class="slide"></div><div id="question1" class="slide"></div><div id="question2" class="slide"></div><div id="question3" class="slide"></div><div id="question4" class="slide"></div></div>');
+          $('#instructions').load('instructions.html');
           $('#question1').load('question1.html');
       
           $.fn.fullpage.reBuild();
