@@ -2,9 +2,14 @@
     $(document).ready(function(){
         function fullPageInit() {
           $('#fullpage').fullpage({
+            //navigation
             navigation: true,
+            slidesNavigation: true,
+            slidesNavPosition: 'bottom',
             menu: '#menu',
             anchors:['page1','page2', 'page3'],
+            //scrolling
+            scrollOverflow: true,
           });
         };
 
@@ -16,9 +21,11 @@
             $('#question1').remove();
           }
       
-          $('#home').after('<div class="section"><div id="instructions" class="slide"></div><div id="question1" class="slide"></div><div id="question2" class="slide"></div><div id="question3" class="slide"></div><div id="question4" class="slide"></div></div>');
+          $('#home').after('<div class="section"><div id="instructions" class="slide"></div><div id="question1" class="slide">hello</div></div>');
           $('#instructions').load('instructions.html');
+          /*
           $('#question1').load('question1.html');
+          */
       
           $.fn.fullpage.reBuild();
       
