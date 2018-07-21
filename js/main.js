@@ -9,7 +9,6 @@
             menu: '#menu',
             anchors:['page1','page2', 'page3'],
             //scrolling
-            scrollHorizontally: true,
             scrollOverflow: true,
           });
         };
