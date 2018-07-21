@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 	<head>
 	</head>
@@ -44,4 +45,52 @@
             </script>
 	</body>
 	
+=======
+<html>
+	<head>
+	</head>
+	
+	<body>
+		<!-- Attribute One -->
+		<input type = "checkbox" id=0></input><br/>
+		<input type = "checkbox" id=1></input><br/>
+		<input type = "checkbox" id=2></input><br/>
+		<input type = "checkbox" id=3></input><br/>
+		<br/>
+		<input type="submit" onclick="attributeCountFun(1)">Calculate Score for First Attribute</input><br/>
+		<br/>
+	
+		<!--Attribute Two -->
+		<input type = "checkbox" id=4></input><br/>
+		<input type = "checkbox" id=5></input><br/>
+		<input type = "checkbox" id=6></input><br/>
+		<input type = "checkbox" id=7></input><br/>
+		<br/>
+		<input type="submit" onclick="attributeCountFun(2)">Calculate Score for Second Attribute</input><br/>
+        
+        <script type="text/javascript>
+	
+            var qN = 0; // the id of the question currently being analyzed.
+            var idOfLastQuestionInAttribute = [-1, 3, 7]; // id of the last question for the attribute. I probably could make this automatic, but it's so much work...
+            var attributeCount = [0, 0,0]; // the value of each attribute. Attribute one is the first (not the zeroeth!!!) entry in the array, attribute two is the second entry, etc.
+            // ignore the first entry of the two arrays above!!! these are useless variables whose only purpose is to prevent the program from breaking!!!
+            
+            function attributeCountFun(whatAttribute) {
+                qN =(idOfLastQuestionInAttribute[whatAttribute - 1] + 1); //essentially it sets qN to the id of the first question in this attribute set.
+                attributeCount[whatAttribute] = 0; //resets the value of attributeCount before reading the checkboxes again.
+                
+                while (qN <= idOfLastQuestionInAttribute[whatAttribute]) {
+                    attributeCount[whatAttribute] += document.getElementById(qN).checked; //if checked, this is true. If not, this is false. True = 1, False = 0.
+                    qN++;
+                }
+                console.log(attributeCount[whatAttribute]);
+            }
+            
+            //EXTRA NOTES
+            //The IDs are in integer form, not in string form. Don't put quotation marks around them!
+            //Yes, you can make IDs integers, apparently.
+            </script>
+	</body>
+	
+>>>>>>> 28b7c87f8db06f94f31b738532ca1aae781a4881
 </html>
