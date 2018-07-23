@@ -45,3 +45,15 @@
       
       });
 
+      //results
+
+      /*
+      if() {
+        document.getElementbyId('results').innerHTML = 'You need to work on this';
+      } else if {
+        document.getElementbyId('results').innerHTML = 'You need this';
+      } else {
+        document.getElementbyId('results').innerHTML = 'no';
+      }
+      */
+

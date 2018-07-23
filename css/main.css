@@ -161,7 +161,7 @@ label {
     font-family: 'Montserrat', sans-serif;
 }
 
-#question1, #instructions, #question1div {
+#question1, #instructions {
     display: flex;
     justify-content: center;
     align-items: center;
