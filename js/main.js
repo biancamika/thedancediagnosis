@@ -21,7 +21,7 @@
             $('#question1').remove();
           }
       
-          $('#home').after('<div class="section"><div id="instructions" class="slide"></div><div id="question1" class="slide">hello</div></div>');
+          $('#home').after('<div class="section" data-anchor="page4"><div id="instructions" class="slide" data-anchor="slide1"></div><div id="question1" class="slide" data-anchor="slide2"></div></div>');
           $('#instructions').load('instructions.html');
           $('#question1').load('question1.html');
           
@@ -45,15 +45,5 @@
       
       });
 
-      //results
-
-      /*
-      if() {
-        document.getElementbyId('results').innerHTML = 'You need to work on this';
-      } else if {
-        document.getElementbyId('results').innerHTML = 'You need this';
-      } else {
-        document.getElementbyId('results').innerHTML = 'no';
-      }
-      */
+      //AEDINS CODE
 
