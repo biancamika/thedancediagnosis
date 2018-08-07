@@ -10,6 +10,8 @@
             anchors:['page1','page2', 'page3'],
             //scrolling
             scrollOverflow: true,
+            //design
+            controlArrows: false,
           });
         };
 
@@ -46,4 +48,12 @@
       });
 
       //AEDINS CODE
-
+      /*
+      $(document).ready(function() {}
+        var ultimateArray;
+        var attributeSums;
+        var attributeTotals;
+        var numberOfClasses = 4;
+        var bestAttributelist;
+    );
+*/
