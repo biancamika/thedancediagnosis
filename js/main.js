@@ -11,7 +11,7 @@
             //scrolling
             scrollOverflow: true,
             //design
-            //controlArrows: false,
+            controlArrows: false,
           });
         };
 
