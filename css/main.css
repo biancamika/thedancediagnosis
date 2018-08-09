@@ -167,6 +167,12 @@ label {
     align-items: center;
 }
 
+#question1div, #question2div, #question3div, #question4div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     display: block;
     position: relative;
