@@ -146,6 +146,8 @@ h1 {
     color:white;
 }
 
+
+
 span {
     color:red !important;
 }
@@ -156,7 +158,7 @@ span {
     font-size: 450%;
 }
 
-p {
+p, ul {
     color: white;
     font-size: 120%;
     font-family: 'Montserrat', sans-serif;
@@ -245,6 +247,7 @@ label {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+
 
 
 
