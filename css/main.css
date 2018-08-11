@@ -104,12 +104,11 @@ textarea {
     height: 9%;
     width: 100%;
     bottom: 0px;
-    padding-top: 10px;
     list-style-type: none;
-    margin-bottom: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     font-size: 190%;
+    margin-bottom: 0px;
 }
 
 #menu li {
@@ -119,6 +118,11 @@ textarea {
 #menu li a {
     text-decoration: none;
     color:white;
+    text-align:center;
+}
+
+#menu li:hover {
+    background-color: #cb0000;
 }
 
 #menu li a:visited {
@@ -130,12 +134,15 @@ button {
     color:white;
     font-weight:bold;
     font-size: 220%;
-    padding: 20px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding: 20px 40px 20px 40px;
     border:none;
     font-family: 'Montserrat', sans-serif;
     z-index: 2;
+}
+
+button:hover {
+    background-color: #cb0000;
+    cursor:pointer;
 }
 
 #home {
@@ -144,8 +151,10 @@ button {
 
 h1 {
     color:white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height:1;
 }
-
 
 
 span {
@@ -158,12 +167,11 @@ span {
     font-size: 450%;
 }
 
-p, ul {
+ul, p {
     color: white;
     font-size: 120%;
     font-family: 'Montserrat', sans-serif;
-    padding-left: 100px;
-    padding-right: 100px;
+    list-style-type: none;
 }
 
 /*questions */
@@ -172,11 +180,19 @@ label {
     font-family: 'Montserrat', sans-serif;
 }
 
-#question1, #instructions, #question2, #question3, #question4 {
+#about, #home, #sources, #question1, #instructions, #question2, #question3, #question4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
+#about, #home, #sources {
+    text-align:center;
+}
+
+
 
 #question1div, #question2div, #question3div, #question4div {
     display: flex;
@@ -247,7 +263,6 @@ label {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-
 
 
 
