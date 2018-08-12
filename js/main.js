@@ -7,7 +7,7 @@
             slidesNavigation: true,
             slidesNavPosition: 'bottom',
             menu: '#menu',
-            anchors:['page1','page2', 'page3'],
+            anchors:['page1','page2', 'page3', 'page4'],
             //scrolling
             scrollOverflow: true,
             //design
