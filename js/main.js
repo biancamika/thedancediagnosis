@@ -39,7 +39,7 @@
       
           $('.section').eq(activeSec).addClass('active');
       
-          $('#instructions').fadeIn('normal', function(){
+          $('#question1').fadeIn('normal', function(){
               setTimeout(function(){
                   fullPageInit();
                   $.fn.fullpage.moveSectionDown();
