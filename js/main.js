@@ -88,7 +88,7 @@
       
           $('.section').eq(activeSec).addClass('active');
       
-          $('#questions').fadeIn('normal', function(){
+          $('#question1').fadeIn('normal', function(){
               setTimeout(function(){
                   fullPageInit();
                   $.fn.fullpage.moveSectionDown();
@@ -138,6 +138,7 @@
 
         $("#result").html(possibleOutcomes[bestAttributelist[0]][bestAttributelist[1]][bestAttributelist[2]][bestAttributelist[3]]);
         //END OF AEDIN CODE
+        */
       });
 
       
