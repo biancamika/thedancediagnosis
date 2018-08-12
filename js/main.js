@@ -98,6 +98,7 @@
         });
         
         //AEDIN CODE PT. 2
+        /*
         ultimateArray = [0, 0, 0, 0];
         attributeSums = [0, 0, 0, 0];
         attributeTotals = [0, 0, 0, 0];
