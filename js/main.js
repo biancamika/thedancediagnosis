@@ -14,13 +14,6 @@
             controlArrows: false,
           });
         };
-
-        //AEDIN CODE
-        var ultimateArray;
-          var attributeSums;
-          var attributeTotals;
-          var numberOfClasses = 4;
-          var bestAttributelist;
         
               
 
