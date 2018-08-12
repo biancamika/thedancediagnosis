@@ -167,10 +167,12 @@ span {
     font-size: 450%;
 }
 
-ul, p {
-    color: white;
-    
+ul, {
+    color:white;
+}
+
 p {
+    color:white;
     font-size: 120%;
     font-family: 'Montserrat', sans-serif;
     list-style-type: none;
