@@ -62,7 +62,7 @@
             slidesNavigation: true,
             slidesNavPosition: 'bottom',
             menu: '#menu',
-            anchors:['page1','page2', 'page3', 'page4'],
+            anchors:['page1','page2', 'page3', 'page4', 'page5'],
             //scrolling
             scrollOverflow: true,
             //design
@@ -75,6 +75,7 @@
         $(document).on('click', '#addSection', function(){
       
           //INSERTS NEW DIV
+          /*
           $('#questions').after('<div id="result" class="section" data-anchor="page5"></div>');
 
           $.fn.fullpage.reBuild();
@@ -95,6 +96,7 @@
           });
       
         });
+        */
         
         //AEDIN CODE
         ultimateArray = [0, 0, 0, 0];
