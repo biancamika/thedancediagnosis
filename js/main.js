@@ -27,7 +27,6 @@
         fullPageInit();
       
         $(document).on('click', '#addSection', function(){
-          
       
           //INSERTS NEW DIV
           $('#questions').after('<div id="result" class="section" data-anchor="page5"></div>');
@@ -40,7 +39,8 @@
       
           $('.section').eq(activeSec).addClass('active');
       
-          $('#question1').fadeIn('normal', function(){
+        
+          $('#result').fadeIn('normal', function(){
               setTimeout(function(){
                   fullPageInit();
                   $.fn.fullpage.moveSectionDown();
