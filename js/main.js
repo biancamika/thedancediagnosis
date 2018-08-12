@@ -24,11 +24,14 @@
           }
           */
       
-          $('#home').after('<div class="section" data-anchor="page4"><div id="question1" class="slide" data-anchor="slide1"></div><div id="question2" class="slide" data-anchor="slide2"></div><div id="question3" class="slide" data-anchor="slide3"></div><div id="question4" class="slide" data-anchor="slide4"></div></div>');
+          //INSERT HTML STRING IN HOME
+          $('#questions').after('home.html');
+          /*
           $('#question1').load('question1.html');
           $('#question2').load('question2.html');
           $('#question3').load('question3.html');
           $('#question4').load('question4.html');
+          */
           
       
           $.fn.fullpage.reBuild();
