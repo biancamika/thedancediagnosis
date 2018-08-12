@@ -205,6 +205,10 @@ label {
 }
 */
 
+.testnavi {
+    display:block;
+}
+
 .container {
     display: block;
     position: relative;
