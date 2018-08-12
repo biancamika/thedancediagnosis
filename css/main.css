@@ -129,18 +129,19 @@ textarea {
     color:white;
 }
 
-button {
+button, #fullpage a {
     background-color: red;
     color:white;
     font-weight:bold;
     font-size: 220%;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 30px 20px 30px;
     border:none;
     font-family: 'Montserrat', sans-serif;
     z-index: 2;
+    text-decoration: none;
 }
 
-button:hover {
+button:hover, #fullpage a:hover {
     background-color: #cb0000;
     cursor:pointer;
 }
@@ -178,18 +179,26 @@ p {
     list-style-type: none;
 }
 
+#home p {
+    padding-bottom: 20px;
+}
+
 /*questions */
 
 label {
     font-family: 'Montserrat', sans-serif;
 }
 
-#about, #home, #sources, #question1, #question2, #question3, #question4 {
+#about, #home, #sources, #questions {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#questions p {
+    font-size: 100%;
 }
 
 #about, #home, #sources {
