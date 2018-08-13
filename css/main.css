@@ -203,12 +203,21 @@ label {
     font-family: 'Montserrat', sans-serif;
 }
 
-#about, #home, #sources, #questions, {
+#about, #home, #sources, #questions {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 80px;
     padding-right: 80px;
+}
+
+#fullpage ul {
+    font-family: 'Montserrat', sans-serif;
+    list-style-type:none;
+}
+
+#fullpage a {
+    color: white;
 }
 
 #result {
