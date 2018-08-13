@@ -203,10 +203,16 @@ label {
     font-family: 'Montserrat', sans-serif;
 }
 
-#about, #home, #sources, #questions, #result {
+#about, #home, #sources, #questions, {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#result {
+    text-align:center;
     padding-left: 80px;
     padding-right: 80px;
 }

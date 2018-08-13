@@ -28,8 +28,8 @@
             [
                 [
                     [
-                    "<p>YOU NEED TO WORK ON:</p><br><h1>NOTHING?</h1><br/><p>You are either a flawless human being or you just forgot to click a checkbox.</p>", //0000
-                    "<p>YOU NEED TO WORK ON:</p><br/><h1>CARDIOVASCULAR ENDURANCE/h1><br/><p>You tire too easily.</p>"  //0001
+                    "<p>YOU NEED TO WORK ON:</p><h1>NOTHING?</h1><p>You are either a flawless human being or you just forgot to click a checkbox.</p>", //0000
+                    "<p>YOU NEED TO WORK ON:</p><h1>CARDIOVASCULAR ENDURANCE/h1><p>You tire too easily.</p>"  //0001
                     ],
                     [
                     "<p>YOU NEED TO WORK ON:</p><h1>MUSCULAR STRENGTH</h1><p>You need to be strong enough to execute moves correctly.</p>", //0010
@@ -39,7 +39,7 @@
                 [
                     [
                     "<p>YOU NEED TO WORK ON:</p><h1>MUSCULAR ENDURANCE</h1><p>You may be strong, but your muscles easily get fatigue. </p>", //0100
-                    ""  //0101
+                    "<p>YOU NEED TO WORK ON:</p><h1>MUSCULAR & CARDIOVASCULAR ENDURANCE</h1><p>You may be strong and flexibile, but you need stamina for both your lungs and your muscles.</p>"  //0101
                     ],
                     [
                     "<p>YOU NEED TO WORK ON:</p><h1>MUSCULAR ENDURANCE & STRENGTH</h1><p>You need strength to both execute and endure choreography!</p>", //0110
