@@ -216,7 +216,7 @@ label {
     list-style-type:none;
 }
 
-#sources a, #results a {
+#sources a, #result a {
     font-size: 120%;
     color: white;
 }
