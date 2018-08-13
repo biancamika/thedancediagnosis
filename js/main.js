@@ -32,26 +32,26 @@
                     "<p>YOU NEED TO WORK ON:</p><h1>CARDIOVASCULAR ENDURANCE/h1><p>You tire too easily.</p>"  //0001
                     ],
                     [
-                    "Are you cold? Because you chose a lot of C...", //0010
-                    "You sure like CDs. But they're outdated?"  //0011
+                    "<p>YOU NEED TO WORK ON:</p><h1>MUSCULAR STRENGTH</h1><p>You need to be strong enough to execute moves correctly.</p>", //0010
+                    "<p>YOU NEED TO WORK ON:</p><h1>MUSCULAR STRENGTH & CARDIOVASCULAR ENDURANCE</h1><p>Not only do you tire easily, but you also lack the strength to do the moves properly.</p>"  //0011
                     ]
                 ],
                 [
                     [
-                    "Bees say buzz. B is what you have chosen a lot of.", //0100
+                    "<p>YOU NEED TO WORK ON:</p><h1>MUSCULAR ENDURANCE</h1><p>You may be strong, but your muscles easily get fatigue. </p>", //0100
                     ""  //0101
                     ],
                     [
-                    "You chose a time long ago, in something BC.", //0110
-                    "You must really have a grudge against the letter A."  //0111
+                    "<p>YOU NEED TO WORK ON:</p><h1>MUSCULAR ENDURANCE & STRENGTH</h1><p>You need strength to both execute and endure choreography!</p>", //0110
+                    "<p>YOU NEED TO WORK ON:</p><h1>MUSCULAR ENDURANCE, STRENGTH & CARDIOVASCULAR ENDURANCE</h1><p> You need to work on a lot lmao </p>"  //0111
                     ]
                 ]
             ],
             [
                 [
                     [
-                    "A class-A person choosing lots of A. Or at least that\'s what you say you are.", //1000
-                    "Acronym for Arts and Design: A and D. You chose this, so you must be artistic."  //1001
+                    "<p>YOU NEED TO WORK ON:</p><h1>FLEXIBILITY</h1><p>You are already strong and stable, but you need to increase your body's range of motion.</p>", //1000
+                    "<p>YOU NEED TO WORK ON:</p><h1>FLEXIBILITY & CARDIOVASCULAR ENDURANCE</h1><p>Your muscles are doing fine, but you need to increase both your body's range of motion and its stamina.</p>"  //1001
                     ],
                     [
                     "When you\'re really hot, you choose the AC. You must be hot right now. ", //1010
