@@ -221,6 +221,10 @@ label {
     color: white;
 }
 
+#result a:visited, result a:active {
+    color:white;
+}
+
 #result {
     text-align:center;
     padding-left: 80px;
