@@ -28,8 +28,8 @@
             [
                 [
                     [
-                    "<p>YOU DID NOT SELECT ANY OF THE CHECKBOXES, TRY AGAIN</p>", //0000
-                    "D-D-D-D-D-D-D!"  //0001
+                    "<p>YOU NEED TO WORK ON:</p><h1>NOTHING?</h1><p>You are either a flawless human being or you just forgot to click a checkbox.</p>", //0000
+                    "<p>YOU NEED TO WORK ON:</p><h1>CARDIOVASCULAR ENDURANCE/h1><p>You tire too easily.</p>"  //0001
                     ],
                     [
                     "Are you cold? Because you chose a lot of C...", //0010
