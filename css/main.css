@@ -96,8 +96,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    background-image:url("../img/background.gif") !important; 
+    background-color:#222222; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
 
-#menu {
+   #menu {
     background-color:red;
     position:fixed;
     z-index: 999;
