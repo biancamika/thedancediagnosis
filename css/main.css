@@ -189,7 +189,7 @@ label {
     font-family: 'Montserrat', sans-serif;
 }
 
-#about, #home, #sources, #questions {
+#about, #home, #sources, #questions, #result {
     display: flex;
     justify-content: center;
     align-items: center;
