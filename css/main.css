@@ -216,7 +216,8 @@ label {
     list-style-type:none;
 }
 
-#fullpage a {
+#sources a, #results a {
+    font-size: 120%;
     color: white;
 }
 
