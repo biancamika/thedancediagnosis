@@ -105,6 +105,8 @@ body {
 }
 
    #menu {
+    display:flex;
+    justify-content: center;
     background-color:red;
     position:fixed;
     z-index: 999;
@@ -114,15 +116,20 @@ body {
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
-    font-size: 190%;
+    font-size: 200%;
     margin-bottom: 0px;
 }
 
 #menu li {
-    display: inline;
+    display: inline-block;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #menu li a {
+    position:relative;
+    top: 10px;
     text-decoration: none;
     color:white;
     text-align:center;
@@ -136,7 +143,7 @@ body {
     color:white;
 }
 
-button, #fullpage a {
+#home a, #questions a {
     background-color: red;
     color:white;
     font-weight:bold;
@@ -204,20 +211,16 @@ label {
     padding-right: 80px;
 }
 
+#result p, #result h1 {
+    display:block;
+}
+
 #questions p {
     font-size: 100%;
 }
 
 #about, #home, #sources {
     text-align:center;
-}
-
-/*
-
-#question1div, #question2div, #question3div, #question4div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 */
 
@@ -289,6 +292,7 @@ label {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 
+/*results */
 
 
 
