@@ -3,8 +3,8 @@
         function fullPageInit() {
           $('#fullpage').fullpage({
             //navigation
-            navigation: true,
-            slidesNavigation: true,
+            navigation: false,
+            slidesNavigation: false,
             slidesNavPosition: 'bottom',
             menu: '#menu',
             anchors:['page1','page2', 'page3', 'page4', 'page5'],

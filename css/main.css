@@ -116,23 +116,28 @@ body {
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
-    font-size: 200%;
+    font-size: 240%;
     margin-bottom: 0px;
 }
 
 #menu li {
     display: inline-block;
     height: 100%;
+    width: 33%;
     padding-left: 20px;
     padding-right: 20px;
+    text-align:center;
 }
 
+#homelink {
+    position:relative;
+    right:50px;
+}
 #menu li a {
     position:relative;
-    top: 10px;
+    top: 6px;
     text-decoration: none;
     color:white;
-    text-align:center;
 }
 
 #menu li:hover {
@@ -155,6 +160,7 @@ body {
     text-decoration: none;
 }
 
+
 button:hover, #fullpage a:hover {
     background-color: #cb0000;
     cursor:pointer;
@@ -162,6 +168,11 @@ button:hover, #fullpage a:hover {
 
 #home {
     text-align:center;
+}
+
+@media only screen and (min-width:1020px) {
+#result, #about, #sources {
+    font-size: 130%;
 }
 
 h1 {
@@ -180,6 +191,7 @@ span {
     font-family: 'Playfair Display', serif;
     line-height: 100%;
     font-size: 450%;
+    padding-top:40px;
 }
 
 ul {
@@ -194,16 +206,54 @@ p {
 }
 
 #home p {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+#home a {
+    position:relative;
+    top: 20px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    #home p {font-size:180%;}
+}
+
+@media only screen and (min-width: 1020px) {
+    /*for fullscreen desktop*/
+    #home p {padding: 0px 200px 0px 200px;}
+}
+
+@media only screen and (max-width:1020px) {
+    #home h1 {padding-top:0px; font-size:350%;}
+    #home a {position:relative; top:0px !important;}
 }
 
 /*questions */
 
 label {
+    position:relative;
+    text-align:left;
+    left: 100px;
     font-family: 'Montserrat', sans-serif;
 }
 
-#about, #home, #sources, #questions {
+@media only screen and (min-width: 1020px) {
+    /*for fullscreen desktop*/
+    #questions label {font-size:200%;}
+    #questions label p {position:relative;bottom:10px;}
+    #questions a {position:relative;bottom:90px;}
+    label {position:relative;bottom: 100px;}
+}
+
+#questions {
+    text-align:center;
+}
+
+
+#about, #home, #sources, #questions{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,6 +269,10 @@ label {
 #sources a, #result a {
     font-size: 120%;
     color: white;
+}
+
+#about a, #about a:visited {
+    color:white;
 }
 
 #result a:visited, result a:active {
@@ -242,7 +296,7 @@ label {
 #about, #home, #sources {
     text-align:center;
 }
-*/
+
 
 .testnavi {
     display:block;
