@@ -54,18 +54,18 @@
                     "<p>YOU NEED TO WORK ON:</p><h1>FLEXIBILITY & CARDIOVASCULAR ENDURANCE</h1><p>Your muscles are doing fine, but you need to increase both your body's range of motion and its stamina.</p>"  //1001
                     ],
                     [
-                    "When you\'re really hot, you choose the AC. You must be hot right now. ", //1010
-                    "Do you have a phobia of Bees? B\'s?"  //1011
+                    "<p>YOU NEED TO WORK ON:</p><h1>FLEXIBILITY & MUSCULAR STRENGTH</h1><p>You may have great stamina, but your body needs to increase its strength and its range of motion.</p>", //1010
+                    "<p>YOU NEED TO WORK ON:</p><h1>FLEXIBILITY, MUSCULAR STRENGTH & CARDIOVASCULAR ENDURANCE</h1><p>Yes, your muscles may last long, but your body needs to increase its range of motion, strength, and stamina.</p>"  //1011
                     ]
                 ],
                 [
                     [
-                    "The first two attributes aren\'t always the best, except for you. AB is you.", //1100
-                    "People who are seasick probably dislike the C. Such as you."  //1101
+                    "<p>YOU NEED TO WORK ON:</p><h1>FLEXIBILITY & MUSCULAR ENDURANCE</h1><p>You may have strength and stamina, but your body needs to increase its range of motion and muscle stamina.</p>", //1100
+                    "<p>YOU NEED TO WORK ON:</p><h1>FLEXIBILITY, MUSCULAR ENDURANCE & CARDIOVASCULAR ENDURANCE</h1><p>You may have strength, but your body needs to increase its range of motion and stamina (especially for the muscles).</p>"  //1101
                     ],
                     [
-                    "You know, it took like 20 minutes to add type D into this, yet you don\'t seem to like it...", //1110
-                    "Choosing everything doesn\'t make you win...?"  //1111
+                    "<p>YOU NEED TO WORK ON:</p><h1>FLEXIBILITY, MUSCULAR ENDURANCE & STRENGTH</h1><p>You may have stamina, but your body needs to increase its range of motion, strength, and muscle stamina.</p>", //1110
+                    "<p>YOU NEED TO WORK ON:</p><h1>FLEXIBILITY, MUSCULAR ENDURANCE, STRENGTH & CARDIOVASCULAR ENDURANCE</h1><p>You need to work on everything!</p>"  //1111
                     ]
                 ]
             ]
